@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+  color: #b30000;
+}
+
+button {
+  background-color: #b30000;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8f0000;
+}
+
+input, select {
+  padding: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+hr {
+  margin: 20px 0;
+}
